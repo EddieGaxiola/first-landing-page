@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(38, 38, 59);
+    color: white;
+}
+
+.container.one {
+    background-color: rgb(38, 38, 59);
+}
+
+.container.two {
+    background-color: white;
+}
+
+.container.three {
+    background-color: #E5E7EB;
+}
+
+.container.three {
+    background-color: white;
+}
