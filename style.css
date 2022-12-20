@@ -25,7 +25,7 @@ a {
 
 .container.one {
     background-color: rgb(38, 38, 59);
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -36,14 +36,35 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 400px;
+    width: 500px;
 }
 
 .left-container h1 {
     color: white;
-    font-size: 35px;
+    font-size: 48px;
     font-weight: 800;
     margin: 0px;
+}
+
+.left-container h4 {
+    color: rgb(186, 184, 184);
+}
+
+.left-container button {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 8px;
+    
+} 
+
+.left-container a {
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
 }
 
 .container.two {
