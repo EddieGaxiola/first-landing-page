@@ -6,6 +6,18 @@ body {
 header {
     background-color: rgb(38, 38, 59);
     color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: inline-flex;
+    gap: 20px;
+}
+a {
+
 }
 
 .container.one {
