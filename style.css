@@ -27,6 +27,23 @@ a {
     background-color: rgb(38, 38, 59);
     height: 300px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+}
+
+.left-container h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0px;
 }
 
 .container.two {
