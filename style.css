@@ -7,7 +7,9 @@ header {
     background-color: rgb(38, 38, 59);
     color: white;
     padding: 0px 10px;
+    height: 40px;
     display: flex;
+    flex: 0 1 auto;
     justify-content: space-around;
     align-items: center;
 }
@@ -17,11 +19,14 @@ header {
     gap: 20px;
 }
 a {
-
+    text-decoration: none;
+    color: rgb(186, 184, 184);
 }
 
 .container.one {
     background-color: rgb(38, 38, 59);
+    height: 300px;
+    display: flex;
 }
 
 .container.two {
