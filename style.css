@@ -1,4 +1,5 @@
 body {
+    height: 2000px;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -8,7 +9,8 @@ body {
 header {
     background-color: rgb(38, 38, 59);
     color: white;
-    padding: 0px 10px;
+    font-size: 24px;
+    padding: 10px 10px;
     height: 40px;
     display: flex;
     flex: 0 1 auto;
@@ -19,6 +21,7 @@ header {
 .links {
     display: inline-flex;
     gap: 20px;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -53,6 +56,7 @@ a {
 .left-container h4 {
     color: rgb(186, 184, 184);
     margin: 5px 0 10px 0;
+    font-size: 18px;
 }
 
 .left-container button {
@@ -60,7 +64,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 45px;
     width: 110px;
     border-radius: 8px;
 } 
@@ -90,13 +94,24 @@ a {
     margin: 40px 0px;
 }
 
-.image-boxes {
-    height: 200px;
+.boxes-container {
+    height: 300px;
     width: 100%;
+    gap: 60px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    gap: 50px;
+}
+
+.image-boxes {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.image-boxes p {
+    font-size: 18px;
+    color: rgb(80, 80, 80);
 }
 
 .image-boxes img {
@@ -105,8 +120,7 @@ a {
     border-radius: 20px;
     border-color: #3882F6;
     width: 200px;
-    height: auto;
-
+    height: 200px;
 }
 
 .container.three {
