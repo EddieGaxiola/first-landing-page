@@ -1,5 +1,5 @@
 body {
-    height: 2000px;
+    height: 1800px;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -10,11 +10,11 @@ header {
     background-color: rgb(38, 38, 59);
     color: white;
     font-size: 24px;
-    padding: 10px 10px;
+    padding: 10px 175px;
     height: 40px;
     display: flex;
     flex: 0 1 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -31,11 +31,10 @@ a {
 .container.one {
     background-color: rgb(38, 38, 59);
     height: 400px;
-    padding: 0 130px 0 130px;
+    padding: 0 175px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
 }
 
 .left-container {
@@ -64,9 +63,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45px;
+    height: 40px;
     width: 110px;
     border-radius: 8px;
+    border-style: none;
 } 
 
 .left-container a {
@@ -82,7 +82,7 @@ a {
 
 .container.two {
     background-color: white;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,8 +125,95 @@ a {
 
 .container.three {
     background-color: #E5E7EB;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container.three {
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: auto;
+}
+
+.quote p {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.quote h3 {
+    display: flex;
+    justify-content: end;
+    font-size: 26px;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.container.four {
     background-color: white;
+    height: 350px;
+    padding: 0 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: center;
+}
+
+.action h3 {
+    color: white;
+    margin: 0px;
+}
+
+.action p {
+    color: white;
+    margin: 0px;
+}
+
+.blue-box button {
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    width: 110px;
+    height: 30px;
+}
+
+.blue-box a {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer {
+    background-color:rgb(38, 38, 59);
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
